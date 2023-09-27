@@ -1,0 +1,26 @@
+/* 
+h1 {
+    color: red;
+} 
+*/
+img {
+    width: 500px;
+    height: 500px;
+}
+.title {
+    color:yellow;
+}
+/* 
+.sub-title {
+    color: green;
+} 
+*/
+#pw-subtitle {
+    color: green;
+}
+.banner {
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    background-image: url('https://www.imageshine.in/uploads/gallery/Narendra_Modi_PNG.png');
+}
