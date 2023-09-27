@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .female {
+            color: red;
+        } */
+        .female {
+            color: blue;
+        }
+        #delhi .female{
+            color: red !important;
+        }
+        .ndls .female {
+            color: brown;
+        }
+        .india #delhi .female {
+            color: green;
+        }
+        .india .ndls .female {
+            color: yellow;
+        }
+        #bharat .ndls .female {
+            color: purple;
+        }
+        h4.female {
+            color: #8f1515;
+        }
+    </style>
+</head>
+<body>
+    <div class="india" id="bharat">
+        <h1>Karnaraka</h1>
+        <div id="karnataka">
+            <div>
+                <h4 class="female">Female</h4>
+                <h4 class="female">Female</h4>
+                <h4 class="male">Male</h4>
+                <h4 class="female">Female</h4>
+                <h4 class="male">Male</h4>
+            </div>
+            <h4 class="female">Female</h4>
+            <h4 class="male">Male</h4>
+        </div>
+        <h1>Delhi</h1>
+        <div id="delhi" class="ndls">
+            <h4 class="female">Female</h4>
+            <h4 class="female">Female</h4>
+            <h4 class="male">Male</h4>
+            <h4 class="female">Female</h4>
+            <h4 class="male">Male</h4>
+        </div>
+        <h1>Gujrat</h1>
+        <div id="gujrat">
+            <h4 class="female">Female</h4>
+            <h4 class="female">Female</h4>
+            <h4 class="male">Male</h4>
+            <h4 class="female">Female</h4>
+            <h4 class="male">Male</h4>
+        </div>
+    </div>
+</body>
+</html>
