@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h vw</title>
+    <style>
+        .base {
+            background-color: purple;
+            color: aliceblue;
+        }
+        .box {
+            width: 250px;
+            border: 1px solid;
+        }
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .vw50 {
+            width: 50vw;
+        }
+        .vh50 {
+            height: 20vh;
+        }
+        html {
+            font-size: 20px;
+        }
+        .rems li {
+            font-size: 2.5rem;
+        }
+        .min {
+            background-color: #854747;
+            height: 100vmin;
+            width: 100vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="base fifty-percent">50%</div>
+    <div class="base vw50">50vw</div>
+    <div class="base vh50">50vh</div>
+    
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    
+    <div class="box">
+        <div class="base fifty-percent">50%</div>
+        <div class="base vw50">50vw</div>
+        <div class="base vh50">50vh</div>
+    </div>
+
+    <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three A</li>
+                <li>Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="min"></div>
+</body>
+</html>
